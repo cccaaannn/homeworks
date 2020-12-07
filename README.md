@@ -26,3 +26,20 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [rhombus](1-cpp/other/rhombus)
 		- [fizzbuzz](1-cpp/other/fizzbuzz)
 		- [horspool](1-cpp/other/horspool)
+- ## Java
+	- Introduction to java
+		- [order system](2-java/introduction_to_java/order_system)
+		- [simple ui](2-java/introduction_to_java/simple_ui)	
+		- [lab work 1](2-java/introduction_to_java/lab1)
+		- [lab work 2](2-java/introduction_to_java/lab2)
+		- [lab work 3](2-java/introduction_to_java/lab3)
+		- [lab work 4](2-java/introduction_to_java/lab4)
+		- [lab work 5](2-java/introduction_to_java/lab5)	
+	- Advanced programming
+		- [chat system](2-java/advanced_programming/chat)
+		- [snake game](2-java/advanced_programming/snake_game_mine)
+		- [snake game different](2-java/advanced_programming/snake_game_not_mine)
+	- Analysis of algorithms
+		- [string matching homework java version](2-java/analysis_of_algorithms/string_matching)
+  	- Formal languages and automata theory
+    	- [regex engine](2-java/formal_languages_and_automata_theory/regex_engine)
