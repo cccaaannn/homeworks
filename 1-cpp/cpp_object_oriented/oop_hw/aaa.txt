@@ -1,0 +1,11 @@
+course name: aaa
+course code: aaa
+exam day: 3
+exam hour: 4
+student number: 50
+
+class: D505
+
+class: D504
+no possible Invigilator for D505
+no possible Invigilator for D504
