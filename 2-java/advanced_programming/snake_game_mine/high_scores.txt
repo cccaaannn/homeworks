@@ -1,0 +1,5 @@
+ali kaptan=15
+ölümde buluşacaz=10
+zaıd=8
+XD=7
+
