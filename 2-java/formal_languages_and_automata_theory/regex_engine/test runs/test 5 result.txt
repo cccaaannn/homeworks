@@ -1,0 +1,308 @@
+RE all|sky|l* 
+ length 70
+Constructing automaton for regular expression
+
+infix: all|sky|l*
+postfix: al&l&sk&y&|l*|
+
+Here is the resulting NFA: 
+initial state:
+16
+accepting states: 
+[5, 11, 14, 15]
+States : 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Transitions : 
+(16, 12, ?)
+(14, 13, ?)
+(4, 5, 'l')
+(12, 6, ?)
+(13, 14, 'l')
+(15, 13, ?)
+(16, 15, ?)
+(8, 9, 'k')
+(3, 4, ?)
+(6, 7, 's')
+(7, 8, ?)
+(2, 3, 'l')
+(12, 0, ?)
+(10, 11, 'y')
+(9, 10, ?)
+(0, 1, 'a')
+(1, 2, ?)
+
+
+ACCEPTED LINES FOR PATTERN
+
+LINE: 1 'l' starts: 8 ends: 9
+
+ LINE: 4 'l' starts: 2 ends: 3
+
+ LINE: 5 'l' starts: 3 ends: 4
+
+ LINE: 11 'l' starts: 19 ends: 20
+
+ LINE: 13 'all' starts: 13 ends: 16
+ LINE: 13 'll' starts: 14 ends: 16
+ LINE: 13 'l' starts: 15 ends: 16
+ LINE: 13 'l' starts: 14 ends: 15
+ LINE: 13 'sky' starts: 8 ends: 11
+
+ LINE: 14 'l' starts: 13 ends: 14
+
+ LINE: 15 'all' starts: 15 ends: 18
+ LINE: 15 'll' starts: 16 ends: 18
+ LINE: 15 'l' starts: 17 ends: 18
+ LINE: 15 'l' starts: 16 ends: 17
+ LINE: 15 'll' starts: 5 ends: 7
+ LINE: 15 'l' starts: 6 ends: 7
+ LINE: 15 'l' starts: 5 ends: 6
+
+ LINE: 16 'all' starts: 8 ends: 11
+ LINE: 16 'll' starts: 9 ends: 11
+ LINE: 16 'l' starts: 10 ends: 11
+ LINE: 16 'l' starts: 9 ends: 10
+
+ LINE: 18 'all' starts: 13 ends: 16
+ LINE: 18 'll' starts: 14 ends: 16
+ LINE: 18 'l' starts: 15 ends: 16
+ LINE: 18 'l' starts: 14 ends: 15
+ LINE: 18 'sky' starts: 8 ends: 11
+
+ LINE: 19 'l' starts: 13 ends: 14
+
+ LINE: 20 'all' starts: 15 ends: 18
+ LINE: 20 'll' starts: 16 ends: 18
+ LINE: 20 'l' starts: 17 ends: 18
+ LINE: 20 'l' starts: 16 ends: 17
+ LINE: 20 'll' starts: 5 ends: 7
+ LINE: 20 'l' starts: 6 ends: 7
+ LINE: 20 'l' starts: 5 ends: 6
+
+ LINE: 21 'all' starts: 8 ends: 11
+ LINE: 21 'll' starts: 9 ends: 11
+ LINE: 21 'l' starts: 10 ends: 11
+ LINE: 21 'l' starts: 9 ends: 10
+
+ LINE: 22 'all' starts: 7 ends: 10
+ LINE: 22 'll' starts: 8 ends: 10
+ LINE: 22 'l' starts: 9 ends: 10
+ LINE: 22 'l' starts: 8 ends: 9
+ LINE: 22 'sky' starts: 3 ends: 6
+
+ LINE: 23 'all' starts: 9 ends: 12
+ LINE: 23 'll' starts: 10 ends: 12
+ LINE: 23 'l' starts: 11 ends: 12
+ LINE: 23 'l' starts: 10 ends: 11
+ LINE: 23 'sky' starts: 5 ends: 8
+
+ LINE: 25 'all' starts: 4 ends: 7
+ LINE: 25 'll' starts: 5 ends: 7
+ LINE: 25 'l' starts: 6 ends: 7
+ LINE: 25 'l' starts: 5 ends: 6
+
+ LINE: 26 'l' starts: 23 ends: 24
+ LINE: 26 'l' starts: 13 ends: 14
+
+ LINE: 27 'll' starts: 15 ends: 17
+ LINE: 27 'l' starts: 16 ends: 17
+ LINE: 27 'l' starts: 15 ends: 16
+ LINE: 27 'l' starts: 9 ends: 10
+
+ LINE: 29 'll' starts: 8 ends: 10
+ LINE: 29 'l' starts: 9 ends: 10
+ LINE: 29 'l' starts: 8 ends: 9
+
+ LINE: 31 'all' starts: 30 ends: 33
+ LINE: 31 'll' starts: 31 ends: 33
+ LINE: 31 'l' starts: 32 ends: 33
+ LINE: 31 'l' starts: 31 ends: 32
+ LINE: 31 'sky' starts: 25 ends: 28
+ LINE: 31 'l' starts: 17 ends: 18
+ LINE: 31 'all' starts: 13 ends: 16
+ LINE: 31 'll' starts: 14 ends: 16
+ LINE: 31 'l' starts: 15 ends: 16
+ LINE: 31 'l' starts: 14 ends: 15
+ LINE: 31 'sky' starts: 8 ends: 11
+
+ LINE: 32 'l' starts: 30 ends: 31
+ LINE: 32 'l' starts: 13 ends: 14
+
+ LINE: 33 'all' starts: 34 ends: 37
+ LINE: 33 'll' starts: 35 ends: 37
+ LINE: 33 'l' starts: 36 ends: 37
+ LINE: 33 'l' starts: 35 ends: 36
+ LINE: 33 'll' starts: 24 ends: 26
+ LINE: 33 'l' starts: 25 ends: 26
+ LINE: 33 'l' starts: 24 ends: 25
+ LINE: 33 'all' starts: 15 ends: 18
+ LINE: 33 'll' starts: 16 ends: 18
+ LINE: 33 'l' starts: 17 ends: 18
+ LINE: 33 'l' starts: 16 ends: 17
+ LINE: 33 'll' starts: 5 ends: 7
+ LINE: 33 'l' starts: 6 ends: 7
+ LINE: 33 'l' starts: 5 ends: 6
+
+ LINE: 34 'all' starts: 8 ends: 11
+ LINE: 34 'll' starts: 9 ends: 11
+ LINE: 34 'l' starts: 10 ends: 11
+ LINE: 34 'l' starts: 9 ends: 10
+
+ LINE: 36 'all' starts: 30 ends: 33
+ LINE: 36 'll' starts: 31 ends: 33
+ LINE: 36 'l' starts: 32 ends: 33
+ LINE: 36 'l' starts: 31 ends: 32
+ LINE: 36 'sky' starts: 25 ends: 28
+ LINE: 36 'l' starts: 17 ends: 18
+ LINE: 36 'all' starts: 13 ends: 16
+ LINE: 36 'll' starts: 14 ends: 16
+ LINE: 36 'l' starts: 15 ends: 16
+ LINE: 36 'l' starts: 14 ends: 15
+ LINE: 36 'sky' starts: 8 ends: 11
+
+ LINE: 37 'l' starts: 30 ends: 31
+ LINE: 37 'l' starts: 13 ends: 14
+
+ LINE: 38 'all' starts: 34 ends: 37
+ LINE: 38 'll' starts: 35 ends: 37
+ LINE: 38 'l' starts: 36 ends: 37
+ LINE: 38 'l' starts: 35 ends: 36
+ LINE: 38 'll' starts: 24 ends: 26
+ LINE: 38 'l' starts: 25 ends: 26
+ LINE: 38 'l' starts: 24 ends: 25
+ LINE: 38 'all' starts: 15 ends: 18
+ LINE: 38 'll' starts: 16 ends: 18
+ LINE: 38 'l' starts: 17 ends: 18
+ LINE: 38 'l' starts: 16 ends: 17
+ LINE: 38 'll' starts: 5 ends: 7
+ LINE: 38 'l' starts: 6 ends: 7
+ LINE: 38 'l' starts: 5 ends: 6
+
+ LINE: 39 'all' starts: 8 ends: 11
+ LINE: 39 'll' starts: 9 ends: 11
+ LINE: 39 'l' starts: 10 ends: 11
+ LINE: 39 'l' starts: 9 ends: 10
+
+ LINE: 40 'all' starts: 7 ends: 10
+ LINE: 40 'll' starts: 8 ends: 10
+ LINE: 40 'l' starts: 9 ends: 10
+ LINE: 40 'l' starts: 8 ends: 9
+ LINE: 40 'sky' starts: 3 ends: 6
+
+ LINE: 43 'all' starts: 13 ends: 16
+ LINE: 43 'll' starts: 14 ends: 16
+ LINE: 43 'l' starts: 15 ends: 16
+ LINE: 43 'l' starts: 14 ends: 15
+ LINE: 43 'sky' starts: 8 ends: 11
+
+ LINE: 44 'l' starts: 13 ends: 14
+
+ LINE: 45 'all' starts: 15 ends: 18
+ LINE: 45 'll' starts: 16 ends: 18
+ LINE: 45 'l' starts: 17 ends: 18
+ LINE: 45 'l' starts: 16 ends: 17
+ LINE: 45 'll' starts: 5 ends: 7
+ LINE: 45 'l' starts: 6 ends: 7
+ LINE: 45 'l' starts: 5 ends: 6
+
+ LINE: 51 'l' starts: 8 ends: 9
+
+ LINE: 54 'll' starts: 7 ends: 9
+ LINE: 54 'l' starts: 8 ends: 9
+ LINE: 54 'l' starts: 7 ends: 8
+
+ LINE: 56 'all' starts: 30 ends: 33
+ LINE: 56 'll' starts: 31 ends: 33
+ LINE: 56 'l' starts: 32 ends: 33
+ LINE: 56 'l' starts: 31 ends: 32
+ LINE: 56 'sky' starts: 25 ends: 28
+ LINE: 56 'l' starts: 17 ends: 18
+ LINE: 56 'all' starts: 13 ends: 16
+ LINE: 56 'll' starts: 14 ends: 16
+ LINE: 56 'l' starts: 15 ends: 16
+ LINE: 56 'l' starts: 14 ends: 15
+ LINE: 56 'sky' starts: 8 ends: 11
+
+ LINE: 57 'l' starts: 30 ends: 31
+ LINE: 57 'l' starts: 13 ends: 14
+
+ LINE: 58 'all' starts: 34 ends: 37
+ LINE: 58 'll' starts: 35 ends: 37
+ LINE: 58 'l' starts: 36 ends: 37
+ LINE: 58 'l' starts: 35 ends: 36
+ LINE: 58 'll' starts: 24 ends: 26
+ LINE: 58 'l' starts: 25 ends: 26
+ LINE: 58 'l' starts: 24 ends: 25
+ LINE: 58 'all' starts: 15 ends: 18
+ LINE: 58 'll' starts: 16 ends: 18
+ LINE: 58 'l' starts: 17 ends: 18
+ LINE: 58 'l' starts: 16 ends: 17
+ LINE: 58 'll' starts: 5 ends: 7
+ LINE: 58 'l' starts: 6 ends: 7
+ LINE: 58 'l' starts: 5 ends: 6
+
+ LINE: 59 'all' starts: 8 ends: 11
+ LINE: 59 'll' starts: 9 ends: 11
+ LINE: 59 'l' starts: 10 ends: 11
+ LINE: 59 'l' starts: 9 ends: 10
+
+ LINE: 61 'all' starts: 30 ends: 33
+ LINE: 61 'll' starts: 31 ends: 33
+ LINE: 61 'l' starts: 32 ends: 33
+ LINE: 61 'l' starts: 31 ends: 32
+ LINE: 61 'sky' starts: 25 ends: 28
+ LINE: 61 'l' starts: 17 ends: 18
+ LINE: 61 'all' starts: 13 ends: 16
+ LINE: 61 'll' starts: 14 ends: 16
+ LINE: 61 'l' starts: 15 ends: 16
+ LINE: 61 'l' starts: 14 ends: 15
+ LINE: 61 'sky' starts: 8 ends: 11
+
+ LINE: 62 'l' starts: 30 ends: 31
+ LINE: 62 'l' starts: 13 ends: 14
+
+ LINE: 63 'all' starts: 34 ends: 37
+ LINE: 63 'll' starts: 35 ends: 37
+ LINE: 63 'l' starts: 36 ends: 37
+ LINE: 63 'l' starts: 35 ends: 36
+ LINE: 63 'll' starts: 24 ends: 26
+ LINE: 63 'l' starts: 25 ends: 26
+ LINE: 63 'l' starts: 24 ends: 25
+ LINE: 63 'all' starts: 15 ends: 18
+ LINE: 63 'll' starts: 16 ends: 18
+ LINE: 63 'l' starts: 17 ends: 18
+ LINE: 63 'l' starts: 16 ends: 17
+ LINE: 63 'll' starts: 5 ends: 7
+ LINE: 63 'l' starts: 6 ends: 7
+ LINE: 63 'l' starts: 5 ends: 6
+
+ LINE: 64 'all' starts: 8 ends: 11
+ LINE: 64 'll' starts: 9 ends: 11
+ LINE: 64 'l' starts: 10 ends: 11
+ LINE: 64 'l' starts: 9 ends: 10
+
+ LINE: 65 'all' starts: 7 ends: 10
+ LINE: 65 'll' starts: 8 ends: 10
+ LINE: 65 'l' starts: 9 ends: 10
+ LINE: 65 'l' starts: 8 ends: 9
+ LINE: 65 'sky' starts: 3 ends: 6
+
+ LINE: 67 'all' starts: 13 ends: 16
+ LINE: 67 'll' starts: 14 ends: 16
+ LINE: 67 'l' starts: 15 ends: 16
+ LINE: 67 'l' starts: 14 ends: 15
+ LINE: 67 'sky' starts: 8 ends: 11
+
+ LINE: 68 'all' starts: 15 ends: 18
+ LINE: 68 'll' starts: 16 ends: 18
+ LINE: 68 'l' starts: 17 ends: 18
+ LINE: 68 'l' starts: 16 ends: 17
+ LINE: 68 'll' starts: 5 ends: 7
+ LINE: 68 'l' starts: 6 ends: 7
+ LINE: 68 'l' starts: 5 ends: 6
+
+ LINE: 69 'all' starts: 7 ends: 10
+ LINE: 69 'll' starts: 8 ends: 10
+ LINE: 69 'l' starts: 9 ends: 10
+ LINE: 69 'l' starts: 8 ends: 9
+ LINE: 69 'sky' starts: 3 ends: 6

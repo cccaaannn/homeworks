@@ -1,0 +1,168 @@
+RE Do|do|(re )*|(mi )*|sol 
+ length 22
+Constructing automaton for regular expression
+
+infix: Do|do|(re )*|(mi )*|sol
+postfix: Do&do&|re& &*|mi& &*|so&l&|
+
+Here is the resulting NFA: 
+initial state:
+31
+accepting states: 
+[3, 22, 23, 7, 30, 14, 15]
+States : 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Transitions : 
+(9, 10, 'r')
+(21, 22, ' ')
+(12, 13, ?)
+(14, 9, ?)
+(16, 8, ?)
+(28, 29, ?)
+(10, 11, ?)
+(0, 1, 'D')
+(24, 16, ?)
+(2, 3, 'o')
+(22, 17, ?)
+(25, 26, 's')
+(29, 30, 'l')
+(5, 6, ?)
+(31, 25, ?)
+(18, 19, ?)
+(8, 0, ?)
+(16, 15, ?)
+(20, 21, ?)
+(6, 7, 'o')
+(26, 27, ?)
+(11, 12, 'e')
+(17, 18, 'm')
+(23, 17, ?)
+(13, 14, ' ')
+(15, 9, ?)
+(24, 23, ?)
+(8, 4, ?)
+(27, 28, 'o')
+(1, 2, ?)
+(31, 24, ?)
+(19, 20, 'i')
+(4, 5, 'd')
+
+
+ACCEPTED LINES FOR PATTERN
+
+LINE: 1 'Do' starts: 63 ends: 65
+
+ LINE: 4 're re ' starts: 15 ends: 21
+ LINE: 4 're ' starts: 18 ends: 21
+ LINE: 4 're ' starts: 15 ends: 18
+ LINE: 4 'do' starts: 12 ends: 14
+ LINE: 4 're re re ' starts: 3 ends: 12
+ LINE: 4 're re ' starts: 6 ends: 12
+ LINE: 4 're ' starts: 9 ends: 12
+ LINE: 4 're re ' starts: 3 ends: 9
+ LINE: 4 're ' starts: 6 ends: 9
+ LINE: 4 're ' starts: 3 ends: 6
+ LINE: 4 'Do' starts: 0 ends: 2
+
+ LINE: 6 'do' starts: 27 ends: 29
+ LINE: 6 're ' starts: 24 ends: 27
+ LINE: 6 'do' starts: 21 ends: 23
+ LINE: 6 're re ' starts: 15 ends: 21
+ LINE: 6 're ' starts: 18 ends: 21
+ LINE: 6 're ' starts: 15 ends: 18
+ LINE: 6 'mi ' starts: 12 ends: 15
+ LINE: 6 're ' starts: 9 ends: 12
+ LINE: 6 'mi mi ' starts: 3 ends: 9
+ LINE: 6 'mi ' starts: 6 ends: 9
+ LINE: 6 'mi ' starts: 3 ends: 6
+
+ LINE: 8 're re ' starts: 15 ends: 21
+ LINE: 8 're ' starts: 18 ends: 21
+ LINE: 8 're ' starts: 15 ends: 18
+ LINE: 8 'do' starts: 12 ends: 14
+ LINE: 8 're re re ' starts: 3 ends: 12
+ LINE: 8 're re ' starts: 6 ends: 12
+ LINE: 8 're ' starts: 9 ends: 12
+ LINE: 8 're re ' starts: 3 ends: 9
+ LINE: 8 're ' starts: 6 ends: 9
+ LINE: 8 're ' starts: 3 ends: 6
+ LINE: 8 'Do' starts: 0 ends: 2
+
+ LINE: 10 'do' starts: 27 ends: 29
+ LINE: 10 're ' starts: 24 ends: 27
+ LINE: 10 'do' starts: 21 ends: 23
+ LINE: 10 're re ' starts: 15 ends: 21
+ LINE: 10 're ' starts: 18 ends: 21
+ LINE: 10 're ' starts: 15 ends: 18
+ LINE: 10 'mi ' starts: 12 ends: 15
+ LINE: 10 're ' starts: 9 ends: 12
+ LINE: 10 'mi mi ' starts: 3 ends: 9
+ LINE: 10 'mi ' starts: 6 ends: 9
+ LINE: 10 'mi ' starts: 3 ends: 6
+
+ LINE: 14 'sol' starts: 52 ends: 55
+ LINE: 14 'mi ' starts: 46 ends: 49
+ LINE: 14 'sol' starts: 39 ends: 42
+ LINE: 14 'sol' starts: 35 ends: 38
+ LINE: 14 'sol' starts: 28 ends: 31
+ LINE: 14 'sol' starts: 21 ends: 24
+ LINE: 14 'sol' starts: 14 ends: 17
+
+ LINE: 16 'sol' starts: 30 ends: 33
+ LINE: 16 'sol' starts: 14 ends: 17
+
+ LINE: 18 're ' starts: 29 ends: 32
+ LINE: 18 'mi ' starts: 26 ends: 29
+ LINE: 18 'mi mi mi ' starts: 11 ends: 20
+ LINE: 18 'mi mi ' starts: 14 ends: 20
+ LINE: 18 'mi ' starts: 17 ends: 20
+ LINE: 18 'mi mi ' starts: 11 ends: 17
+ LINE: 18 'mi ' starts: 14 ends: 17
+ LINE: 18 'mi ' starts: 11 ends: 14
+ LINE: 18 'sol' starts: 4 ends: 7
+
+ LINE: 20 'do' starts: 42 ends: 44
+ LINE: 20 're re re ' starts: 27 ends: 36
+ LINE: 20 're re ' starts: 30 ends: 36
+ LINE: 20 're ' starts: 33 ends: 36
+ LINE: 20 're re ' starts: 27 ends: 33
+ LINE: 20 're ' starts: 30 ends: 33
+ LINE: 20 're ' starts: 27 ends: 30
+ LINE: 20 'do' starts: 24 ends: 26
+ LINE: 20 're re re ' starts: 15 ends: 24
+ LINE: 20 're re ' starts: 18 ends: 24
+ LINE: 20 're ' starts: 21 ends: 24
+ LINE: 20 're re ' starts: 15 ends: 21
+ LINE: 20 're ' starts: 18 ends: 21
+ LINE: 20 're ' starts: 15 ends: 18
+ LINE: 20 'do' starts: 12 ends: 14
+ LINE: 20 're re re ' starts: 3 ends: 12
+ LINE: 20 're re ' starts: 6 ends: 12
+ LINE: 20 're ' starts: 9 ends: 12
+ LINE: 20 're re ' starts: 3 ends: 9
+ LINE: 20 're ' starts: 6 ends: 9
+ LINE: 20 're ' starts: 3 ends: 6
+ LINE: 20 'Do' starts: 0 ends: 2
+
+ LINE: 22 'do' starts: 42 ends: 44
+ LINE: 22 're re re ' starts: 27 ends: 36
+ LINE: 22 're re ' starts: 30 ends: 36
+ LINE: 22 're ' starts: 33 ends: 36
+ LINE: 22 're re ' starts: 27 ends: 33
+ LINE: 22 're ' starts: 30 ends: 33
+ LINE: 22 're ' starts: 27 ends: 30
+ LINE: 22 'do' starts: 24 ends: 26
+ LINE: 22 're re re ' starts: 15 ends: 24
+ LINE: 22 're re ' starts: 18 ends: 24
+ LINE: 22 're ' starts: 21 ends: 24
+ LINE: 22 're re ' starts: 15 ends: 21
+ LINE: 22 're ' starts: 18 ends: 21
+ LINE: 22 're ' starts: 15 ends: 18
+ LINE: 22 'do' starts: 12 ends: 14
+ LINE: 22 're re re ' starts: 3 ends: 12
+ LINE: 22 're re ' starts: 6 ends: 12
+ LINE: 22 're ' starts: 9 ends: 12
+ LINE: 22 're re ' starts: 3 ends: 9
+ LINE: 22 're ' starts: 6 ends: 9
+ LINE: 22 're ' starts: 3 ends: 6
+ LINE: 22 'Do' starts: 0 ends: 2

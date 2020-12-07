@@ -1,0 +1,92 @@
+RE Byzantium|Roman|3*
+length 22
+Constructing automaton for regular expression
+
+infix: Byzantium|Roman|3*
+postfix: By&z&a&n&t&i&u&m&Ro&m&a&n&|3*|
+
+Here is the resulting NFA: 
+initial state:
+32
+accepting states: 
+[17, 27, 30, 31]
+States : 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+Transitions : 
+(12, 13, 'i')
+(24, 25, 'a')
+(10, 11, 't')
+(11, 12, ?)
+(9, 10, ?)
+(2, 3, 'y')
+(29, 30, '3')
+(0, 1, 'B')
+(13, 14, ?)
+(1, 2, ?)
+(32, 28, ?)
+(21, 22, ?)
+(28, 0, ?)
+(20, 21, 'o')
+(31, 29, ?)
+(32, 31, ?)
+(7, 8, ?)
+(6, 7, 'a')
+(8, 9, 'n')
+(19, 20, ?)
+(22, 23, 'm')
+(16, 17, 'm')
+(25, 26, ?)
+(23, 24, ?)
+(26, 27, 'n')
+(18, 19, 'R')
+(30, 29, ?)
+(5, 6, ?)
+(4, 5, 'z')
+(28, 18, ?)
+(14, 15, 'u')
+(15, 16, ?)
+(3, 4, ?)
+
+
+ACCEPTED LINES FOR PATTERN
+
+ LINE: 1 'Byzantium' starts: 22 ends: 31
+
+ LINE: 4 'Roman' starts: 81 ends: 86
+ LINE: 4 'Roman' starts: 28 ends: 33
+
+ LINE: 5 'Roman' starts: 119 ends: 124
+ LINE: 5 'Roman' starts: 60 ends: 65
+
+ LINE: 7 'Roman' starts: 9 ends: 14
+
+ LINE: 9 'Roman' starts: 32 ends: 37
+ LINE: 9 'Roman' starts: 0 ends: 5
+
+ LINE: 10 'Roman' starts: 23 ends: 28
+
+ LINE: 11 'Roman' starts: 74 ends: 79
+
+ LINE: 13 '3' starts: 62 ends: 63
+ LINE: 13 'Roman' starts: 19 ends: 24
+
+ LINE: 14 '3' starts: 92 ends: 93
+ LINE: 14 '3' starts: 88 ends: 89
+ LINE: 14 '3' starts: 72 ends: 73
+ LINE: 14 '3' starts: 68 ends: 69
+ LINE: 14 '3' starts: 48 ends: 49
+ LINE: 14 '33' starts: 44 ends: 46
+ LINE: 14 '3' starts: 45 ends: 46
+ LINE: 14 '3' starts: 44 ends: 45
+ LINE: 14 '33' starts: 4 ends: 6
+ LINE: 14 '3' starts: 5 ends: 6
+ LINE: 14 '3' starts: 4 ends: 5
+ LINE: 14 '3' starts: 0 ends: 1
+
+ LINE: 15 '3' starts: 4 ends: 5
+ LINE: 15 '3' starts: 0 ends: 1
+
+ LINE: 17 'Roman' starts: 57 ends: 62
+
+ LINE: 18 'Roman' starts: 45 ends: 50
+ LINE: 18 'Roman' starts: 17 ends: 22

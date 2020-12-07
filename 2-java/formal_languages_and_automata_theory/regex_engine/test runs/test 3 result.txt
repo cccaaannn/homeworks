@@ -1,0 +1,222 @@
+RE me|(Ameno )* 
+ length 60
+Constructing automaton for regular expression
+
+infix: me|(Ameno )*
+postfix: me&Am&e&n&o& &*|
+
+Here is the resulting NFA: 
+initial state:
+17
+accepting states: 
+[16, 3, 15]
+States : 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+Transitions : 
+(11, 12, ?)
+(10, 11, 'n')
+(5, 6, ?)
+(7, 8, ?)
+(9, 10, ?)
+(14, 15, ' ')
+(12, 13, 'o')
+(2, 3, 'e')
+(16, 4, ?)
+(15, 4, ?)
+(0, 1, 'm')
+(17, 0, ?)
+(1, 2, ?)
+(8, 9, 'e')
+(4, 5, 'A')
+(13, 14, ?)
+(17, 16, ?)
+(6, 7, 'm')
+
+
+ACCEPTED LINES FOR PATTERN
+
+LINE: 3 'me' starts: 5 ends: 7
+
+ LINE: 5 'me' starts: 5 ends: 7
+
+ LINE: 6 'me' starts: 7 ends: 9
+ LINE: 6 'Ameno ' starts: 0 ends: 6
+ LINE: 6 'me' starts: 1 ends: 3
+
+ LINE: 9 'me' starts: 5 ends: 7
+
+ LINE: 10 'me' starts: 1 ends: 3
+
+ LINE: 11 'me' starts: 18 ends: 20
+ LINE: 11 'me' starts: 1 ends: 3
+
+ LINE: 12 'me' starts: 9 ends: 11
+ LINE: 12 'me' starts: 2 ends: 4
+
+ LINE: 14 'me' starts: 1 ends: 3
+
+ LINE: 15 'me' starts: 1 ends: 3
+
+ LINE: 16 'me' starts: 1 ends: 3
+
+ LINE: 17 'me' starts: 1 ends: 3
+
+ LINE: 18 'Ameno Ameno ' starts: 0 ends: 12
+ LINE: 18 'Ameno ' starts: 6 ends: 12
+ LINE: 18 'me' starts: 7 ends: 9
+ LINE: 18 'Ameno ' starts: 0 ends: 6
+ LINE: 18 'me' starts: 1 ends: 3
+
+ LINE: 19 'me' starts: 11 ends: 13
+ LINE: 19 'Ameno ' starts: 0 ends: 6
+ LINE: 19 'me' starts: 1 ends: 3
+
+ LINE: 20 'me' starts: 11 ends: 13
+ LINE: 20 'Ameno ' starts: 0 ends: 6
+ LINE: 20 'me' starts: 1 ends: 3
+
+ LINE: 21 'Ameno ' starts: 0 ends: 6
+ LINE: 21 'me' starts: 1 ends: 3
+
+ LINE: 22 'me' starts: 5 ends: 7
+
+ LINE: 23 'me' starts: 11 ends: 13
+ LINE: 23 'Ameno ' starts: 0 ends: 6
+ LINE: 23 'me' starts: 1 ends: 3
+
+ LINE: 24 'me' starts: 11 ends: 13
+ LINE: 24 'Ameno ' starts: 0 ends: 6
+ LINE: 24 'me' starts: 1 ends: 3
+
+ LINE: 25 'me' starts: 5 ends: 7
+
+ LINE: 26 'me' starts: 13 ends: 15
+ LINE: 26 'Ameno Ameno ' starts: 0 ends: 12
+ LINE: 26 'Ameno ' starts: 6 ends: 12
+ LINE: 26 'me' starts: 7 ends: 9
+ LINE: 26 'Ameno ' starts: 0 ends: 6
+ LINE: 26 'me' starts: 1 ends: 3
+
+ LINE: 27 'me' starts: 18 ends: 20
+ LINE: 27 'me' starts: 1 ends: 3
+
+ LINE: 28 'me' starts: 9 ends: 11
+ LINE: 28 'me' starts: 2 ends: 4
+
+ LINE: 30 'me' starts: 1 ends: 3
+
+ LINE: 31 'me' starts: 1 ends: 3
+
+ LINE: 32 'me' starts: 1 ends: 3
+
+ LINE: 33 'me' starts: 1 ends: 3
+
+ LINE: 34 'Ameno Ameno ' starts: 0 ends: 12
+ LINE: 34 'Ameno ' starts: 6 ends: 12
+ LINE: 34 'me' starts: 7 ends: 9
+ LINE: 34 'Ameno ' starts: 0 ends: 6
+ LINE: 34 'me' starts: 1 ends: 3
+
+ LINE: 35 'me' starts: 11 ends: 13
+ LINE: 35 'Ameno ' starts: 0 ends: 6
+ LINE: 35 'me' starts: 1 ends: 3
+
+ LINE: 36 'me' starts: 11 ends: 13
+ LINE: 36 'Ameno ' starts: 0 ends: 6
+ LINE: 36 'me' starts: 1 ends: 3
+
+ LINE: 37 'Ameno ' starts: 0 ends: 6
+ LINE: 37 'me' starts: 1 ends: 3
+
+ LINE: 38 'me' starts: 5 ends: 7
+
+ LINE: 39 'me' starts: 11 ends: 13
+ LINE: 39 'Ameno ' starts: 0 ends: 6
+ LINE: 39 'me' starts: 1 ends: 3
+
+ LINE: 40 'me' starts: 11 ends: 13
+ LINE: 40 'Ameno ' starts: 0 ends: 6
+ LINE: 40 'me' starts: 1 ends: 3
+
+ LINE: 41 'me' starts: 5 ends: 7
+
+ LINE: 42 'me' starts: 7 ends: 9
+ LINE: 42 'Ameno ' starts: 0 ends: 6
+ LINE: 42 'me' starts: 1 ends: 3
+
+ LINE: 43 'me' starts: 11 ends: 13
+ LINE: 43 'Ameno ' starts: 0 ends: 6
+ LINE: 43 'me' starts: 1 ends: 3
+
+ LINE: 44 'me' starts: 11 ends: 13
+ LINE: 44 'Ameno ' starts: 0 ends: 6
+ LINE: 44 'me' starts: 1 ends: 3
+
+ LINE: 45 'me' starts: 5 ends: 7
+
+ LINE: 46 'Ameno Ameno ' starts: 0 ends: 12
+ LINE: 46 'Ameno ' starts: 6 ends: 12
+ LINE: 46 'me' starts: 7 ends: 9
+ LINE: 46 'Ameno ' starts: 0 ends: 6
+ LINE: 46 'me' starts: 1 ends: 3
+
+ LINE: 47 'me' starts: 11 ends: 13
+ LINE: 47 'Ameno ' starts: 0 ends: 6
+ LINE: 47 'me' starts: 1 ends: 3
+
+ LINE: 48 'me' starts: 11 ends: 13
+ LINE: 48 'Ameno ' starts: 0 ends: 6
+ LINE: 48 'me' starts: 1 ends: 3
+
+ LINE: 49 'Ameno ' starts: 0 ends: 6
+ LINE: 49 'me' starts: 1 ends: 3
+
+ LINE: 50 'me' starts: 5 ends: 7
+
+ LINE: 51 'me' starts: 11 ends: 13
+ LINE: 51 'Ameno ' starts: 0 ends: 6
+ LINE: 51 'me' starts: 1 ends: 3
+
+ LINE: 52 'me' starts: 11 ends: 13
+ LINE: 52 'Ameno ' starts: 0 ends: 6
+ LINE: 52 'me' starts: 1 ends: 3
+
+ LINE: 53 'me' starts: 29 ends: 31
+ LINE: 53 'Ameno Ameno Ameno Ameno ' starts: 0 ends: 24
+ LINE: 53 'Ameno Ameno Ameno ' starts: 6 ends: 24
+ LINE: 53 'Ameno Ameno ' starts: 12 ends: 24
+ LINE: 53 'Ameno ' starts: 18 ends: 24
+ LINE: 53 'me' starts: 19 ends: 21
+ LINE: 53 'Ameno Ameno Ameno ' starts: 0 ends: 18
+ LINE: 53 'Ameno Ameno ' starts: 6 ends: 18
+ LINE: 53 'Ameno ' starts: 12 ends: 18
+ LINE: 53 'me' starts: 13 ends: 15
+ LINE: 53 'Ameno Ameno ' starts: 0 ends: 12
+ LINE: 53 'Ameno ' starts: 6 ends: 12
+ LINE: 53 'me' starts: 7 ends: 9
+ LINE: 53 'Ameno ' starts: 0 ends: 6
+ LINE: 53 'me' starts: 1 ends: 3
+
+ LINE: 54 'me' starts: 17 ends: 19
+ LINE: 54 'Ameno Ameno ' starts: 0 ends: 12
+ LINE: 54 'Ameno ' starts: 6 ends: 12
+ LINE: 54 'me' starts: 7 ends: 9
+ LINE: 54 'Ameno ' starts: 0 ends: 6
+ LINE: 54 'me' starts: 1 ends: 3
+
+ LINE: 55 'Ameno ' starts: 0 ends: 6
+ LINE: 55 'me' starts: 1 ends: 3
+
+ LINE: 56 'me' starts: 5 ends: 7
+
+ LINE: 57 'me' starts: 1 ends: 3
+
+ LINE: 58 'me' starts: 11 ends: 13
+ LINE: 58 'Ameno ' starts: 0 ends: 6
+ LINE: 58 'me' starts: 1 ends: 3
+
+ LINE: 59 'me' starts: 1 ends: 3
+
+ LINE: 60 'me' starts: 11 ends: 13
+ LINE: 60 'Ameno ' starts: 0 ends: 6
+ LINE: 60 'me' starts: 1 ends: 3
