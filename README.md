@@ -43,3 +43,8 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [string matching homework java version](2-java/analysis_of_algorithms/string_matching)
   	- Formal languages and automata theory
     	- [regex engine](2-java/formal_languages_and_automata_theory/regex_engine)
+	- Operating systems
+		- [barrier-semaphore homework](2-java/operating_systems/barrier_semaphore)
+	- Other
+		- [question answer system homework](2-java/other/question_answer_hw)
+		- [separate images by date](2-java/other/separate_images_by_date)
