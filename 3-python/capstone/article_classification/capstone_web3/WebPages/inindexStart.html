@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive blog template">
+        <meta name="author" content="Zoyothemes">
+
+
+        <!-- Google Fonts -->
+        <link href="css" rel="stylesheet">
+
+        <!-- Bootstrap core CSS -->
+        <link href="./bootstrap.min.css" rel="stylesheet">
+
+        <!-- MENU CSS -->
+        <link href="./metismenu.min.css" rel="stylesheet" type="text/css">
+
+        <!-- MATERIALDESIGN ICON -->
+        <link rel="stylesheet" type="text/css" href="./materialdesignicons.min.css">
+
+    <style>
+        .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(78, 171, 233);
+    border-bottom: 16px solid rgb(78, 171, 233);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+   </style>
+
+    </head>
+
+    <body>
+        <center>
+            <div class="page-wrapper">
+                    <meta http-equiv="refresh" content="7">
+                    <div class="loader" id="myDIV" ></div>
+            </div>
+        </center>
+   </body>
+
+<script>
+    function codeAddress() {
+        var i=0;
+        var x = document.getElementById("myDIV");
+    if(i==1){
+        x.style.display = "none";
+    }
+        }
+        window.onload = codeAddress;
+
+
+</script>
+
+</html>

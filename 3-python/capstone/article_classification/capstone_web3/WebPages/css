@@ -1,0 +1,13 @@
+/* nunito-regular - latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('efecanahmetoglu.com/fonts/nunito-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Regular'), local('Nunito-Regular'),
+       url('efecanahmetoglu.com/fonts/n.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('efecanahmetoglu.com/fonts/n.woff2') format('woff2'), /* Super Modern Browsers */
+       url('efecanahmetoglu.com/fonts/n.woff') format('woff'), /* Modern Browsers */
+       url('efecanahmetoglu.com/fonts/n.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('efecanahmetoglu.com/fonts/n.svg#Nunito') format('svg'); /* Legacy iOS */
+}
