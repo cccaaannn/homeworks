@@ -48,3 +48,22 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 	- Other
 		- [question answer system homework](2-java/other/question_answer_hw)
 		- [separate images by date](2-java/other/separate_images_by_date)
+- ## Python
+	- Introduction to python
+		- [homework 1](3-python/introduction_to_python/hw1)
+		- [homework 2](3-python/introduction_to_python/hw2)
+		- [homework 3](3-python/introduction_to_python/hw3)
+		- [homework 4](3-python/introduction_to_python/hw4)
+		- [midterm](3-python/introduction_to_python/midterm)
+		- [final](3-python/introduction_to_python/final)
+	- Analysis of algorithms
+		- [string matching homework python version](3-python/analysis_of_algorithms/string_matching)
+	- Capstones
+		- [article classification machine learning](3-python/capstone/article_classification)
+		- [sign language deep learning](3-python/capstone/sign_language_deep_learning)
+		- [detect money computer vision](3-python/capstone/detect_money)
+	- Data mining
+		- [feature selection 1](3-python/data_mining/hw1)
+		- [feature selection 2](3-python/data_mining/hw3)
+	- Other
+		- [simple pizza order system](3-python/capstone/article_classification)
