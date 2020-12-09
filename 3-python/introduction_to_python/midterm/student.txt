@@ -1,0 +1,22 @@
+Akçam	Su Tilsim       PSYC 3.9
+Aksel	Eda	        POLS 2.78
+Alpaydin Dilay	        ECON 1.2
+Atil	Turgut Uluç     IR 2.1
+Deveci	Yasemin		PSYC 2.9
+Erserçe	Yasemin		POLS 3.0
+Gülle	Halil		POLS 2.7
+Gündogdu Ata Alp	ECON 4.0
+Gungor	Muhammed Yasin	POLS 3.1
+Hammoud	 Rawan		IR 1.7
+Has	Atakan		POLS 1.97
+Ince	Kemal Kahriman	IR 2.0
+Kaptan	Deniz		IR 3.5
+Kestir	Bengisu		IR 3.8
+Koca	Aysu		ECON 2.5
+Kolayli Sena Göksu	IR 2.8
+Kumman	Gizem		PSYC 2.9
+Madenoglu Zeynep	PSYC 3.1
+Naghiyeva Gulustan	IR 3.8
+Ok	Arda Mert	IR 3.2
+Var	Berna		ECON 2.9
+Yeltekin Sude		PSYC 1.2

@@ -1,0 +1,11 @@
+Tracey Russell;Assistant Professor;150;600
+Andrea Howard;Associate Professor;15000
+Andrew Austin;Specialist;9000
+Lyle Romero;Specialist;6500
+Alyssa Padilla;Professor;200;750
+Sue Beck;Associate Professor;310;450
+Jeremiah Bailey;Professor;18500
+Rosalie West;Associate Professor;100;350
+Alonzo Ballard;Assistant Professor;5500
+Darryl Walker;Professor;125;800
+Alyssa Padilla;Professor;200;750
