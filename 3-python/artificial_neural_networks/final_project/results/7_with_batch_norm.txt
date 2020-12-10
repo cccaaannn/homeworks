@@ -1,0 +1,62 @@
+Train on 15964 samples, validate on 3992 samples
+Epoch 1/15
+15964/15964 [==============================] - 20s 1ms/step - loss: 0.6316 - accuracy: 0.7129 - val_loss: 1.0216 - val_accuracy: 0.5619
+
+Epoch 00001: val_loss improved from inf to 1.02157, saving model to /content/model
+Epoch 2/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.3842 - accuracy: 0.8263 - val_loss: 0.6540 - val_accuracy: 0.6658
+
+Epoch 00002: val_loss improved from 1.02157 to 0.65403, saving model to /content/model
+Epoch 3/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.2774 - accuracy: 0.8834 - val_loss: 0.6387 - val_accuracy: 0.6648
+
+Epoch 00003: val_loss improved from 0.65403 to 0.63868, saving model to /content/model
+Epoch 4/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.2046 - accuracy: 0.9167 - val_loss: 0.3462 - val_accuracy: 0.8582
+
+Epoch 00004: val_loss improved from 0.63868 to 0.34615, saving model to /content/model
+Epoch 5/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.1681 - accuracy: 0.9327 - val_loss: 0.4677 - val_accuracy: 0.7568
+
+Epoch 00005: val_loss did not improve from 0.34615
+Epoch 6/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.1291 - accuracy: 0.9500 - val_loss: 0.3492 - val_accuracy: 0.8637
+
+Epoch 00006: val_loss did not improve from 0.34615
+Epoch 7/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.0996 - accuracy: 0.9626 - val_loss: 0.6809 - val_accuracy: 0.8004
+
+Epoch 00007: val_loss did not improve from 0.34615
+Epoch 8/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.0824 - accuracy: 0.9682 - val_loss: 0.2781 - val_accuracy: 0.9026
+
+Epoch 00008: val_loss improved from 0.34615 to 0.27813, saving model to /content/model
+Epoch 9/15
+15964/15964 [==============================] - 18s 1ms/step - loss: 0.0777 - accuracy: 0.9701 - val_loss: 0.3356 - val_accuracy: 0.8692
+
+Epoch 00009: val_loss did not improve from 0.27813
+
+
+
+
+
+filters
+16-32-64-128-256-512
+layers = 6 conv 0 dense
+optimizer = adam
+lr = 0.01
+
+
+
+
+
+
+[[2243  253]
+ [ 238 2256]]
+
+accuracy 0.9016032064128257
+prescision_dog 0.8991630131526505 recall_dog 0.9045709703287891
+prescision_cat 0.9040709391374446 recall_cat 0.8986378205128205
+
+
+

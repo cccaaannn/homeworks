@@ -1,0 +1,57 @@
+Train on 15964 samples, validate on 3992 samples
+Epoch 1/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.8352 - accuracy: 0.6446 - val_loss: 0.6102 - val_accuracy: 0.6578
+
+Epoch 00001: val_loss improved from inf to 0.61017, saving model to /content/model
+Epoch 2/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.4917 - accuracy: 0.7635 - val_loss: 0.5789 - val_accuracy: 0.7029
+
+Epoch 00002: val_loss improved from 0.61017 to 0.57894, saving model to /content/model
+Epoch 3/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.3623 - accuracy: 0.8420 - val_loss: 0.6325 - val_accuracy: 0.6926
+
+Epoch 00003: val_loss did not improve from 0.57894
+Epoch 4/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.2553 - accuracy: 0.9004 - val_loss: 0.6771 - val_accuracy: 0.7054
+
+Epoch 00004: val_loss did not improve from 0.57894
+Epoch 5/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.1721 - accuracy: 0.9417 - val_loss: 0.8150 - val_accuracy: 0.6924
+
+Epoch 00005: val_loss did not improve from 0.57894
+Epoch 6/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.1151 - accuracy: 0.9672 - val_loss: 0.8816 - val_accuracy: 0.6904
+
+Epoch 00006: val_loss did not improve from 0.57894
+Epoch 7/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.0763 - accuracy: 0.9830 - val_loss: 1.0527 - val_accuracy: 0.6789
+
+Epoch 00007: val_loss did not improve from 0.57894
+Epoch 8/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.0549 - accuracy: 0.9914 - val_loss: 1.0873 - val_accuracy: 0.6939
+
+Epoch 00008: val_loss did not improve from 0.57894
+Epoch 9/10
+15964/15964 [==============================] - 44s 3ms/step - loss: 0.0364 - accuracy: 0.9952 - val_loss: 1.2066 - val_accuracy: 0.6854
+
+Epoch 00009: val_loss did not improve from 0.57894
+Epoch 10/10
+15964/15964 [==============================] - 45s 3ms/step - loss: 0.0386 - accuracy: 0.9932 - val_loss: 1.3422 - val_accuracy: 0.6826
+
+Epoch 00010: val_loss did not improve from 0.57894
+
+
+
+filters
+64
+layers = 1 conv 0 dense
+optimizer = adam
+lr = 0.01
+
+
+[[1700  768]
+ [ 711 1811]]
+
+accuracy 0.7036072144288578
+prescision_dog 0.7022101589763474 recall_dog 0.718080888183981
+prescision_cat 0.7051016175860638 recall_cat 0.6888168557536467

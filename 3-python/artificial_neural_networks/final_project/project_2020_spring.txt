@@ -1,0 +1,61 @@
+CMP5133- Artificial Neural Networks
+2019-2020 Spring Term Project
+
+Important Notes
+
+- Project report submission deadline: May 28, 23:59 (Strict)
+
+- Submit your report through itslearning as a single PDF file. You should use the attached file as report template. The source code will be given in the Appendix section of the report.
+
+- This is a group project. Therefore, you should work in groups of 2. Individual implementations or more than 2 students will NOT be accepted.
+
+---------------------
+
+Grading of Project
+
+Report: 35%
+Quality of Work: 40%
+Presentation: 25%
+
+---------------------
+
+Important Instructions 
+
+- The presentations will be held between June 1 and 7 during the class and some extra hours. I will later announce the exact presentation dates.
+
+- Choose one or more datasets from Kaggle, UCI machine learning repository or any other internet source. You are also allowed to use a dataset belonging to the company or organization you work for if you have the required permissions. 
+
+- The dataset(s) you will use in your projects should not be older than 2015. 
+
+- You should use at least of the deep neural network architecture such as LSTM-RNN, CNN, GAN, Autoencoders, etc.
+
+- Your experiments should be presented in a comparative manner, i.e. not an application of a single method to a single dataset. For example, comparing multiple deep neural network algorithms under different conditions, comparing deep neural network algorithm to a traditional algorithm, comparing different settings of a single deep neural network algorithm, etc.
+
+- Implementation should be done at Python or R. You may use any packages, functions, classes, etc.
+
+---------------------
+
+Project Report Instructions
+
+In the project report, you should:
+
+- Divide the report into 6 sections: (1) Introduction, (2) Dataset Description, (3) Methods, (4) Experimental Results, (5) Conclusions, (6) Appendix.
+
+- The source code will be given in (6) Appendix section of the report.
+
+- Clearly define the aim of the project in introduction section. You may use the methods we have covered until now this semester or any other machine learning method. 
+
+- Give a review of the related works about your project topics.
+
+- Briefly summarize the methods you have implemented in your project with your own words. 
+
+- Give the experimental results with tables and/or figures. Make comments and compare the algorithms with proper evaluation metrics depending on the structure of your problem and dataset.
+
+---------------------
+
+Submission Instructions
+
+- Submit your report through itslearning as a single PDF file. You should use the attached file as report template. The source code will be given in the Appendix section of the report.
+
+- Only one person out of each group should submit the project. The file name should include all group members’ student names in the format
+{STUDENT NAME} and {STUDENT NAME}.rar
