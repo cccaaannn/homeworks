@@ -65,5 +65,14 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 	- Data mining
 		- [feature selection 1](3-python/data_mining/hw1)
 		- [feature selection 2](3-python/data_mining/hw3)
+	- Computer vision
+		- [background subtractor](3-python/computer_vision/background_subtractor)
+		- [offsite finder](3-python/computer_vision/offsite_finder)
+	- Artificial neural networks
+		- [homework](3-python/artificial_neural_networks/hw)
+		- [final project](3-python/artificial_neural_networks/final_project)		
+	- Network security and cryptography
+		- [diffie hellman](3-python/network_security_cryptography/hw1)
+		- [euclidean-extended euclidean](3-python/network_security_cryptography/hw2)
 	- Other
-		- [simple pizza order system](3-python/capstone/article_classification)
+		- [simple pizza order system](3-python/other/simple_pizza_order)
