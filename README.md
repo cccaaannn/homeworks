@@ -76,3 +76,8 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [euclidean-extended euclidean](3-python/network_security_cryptography/hw2)
 	- Other
 		- [simple pizza order system](3-python/other/simple_pizza_order)
+- ## Arduino
+	- [alarm clock](4-arduino/alarm_clock)
+	- [seven segment display homework](4-arduino/seven_segment_display)
+- ## C
+	- [dynamic array](5-c/dynamic_array)
