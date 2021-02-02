@@ -68,6 +68,7 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [feature selection 2](3-python/data_mining/hw3)
 		- [simple house prices prediction](3-python/data_mining/hw4)
 		- [k-means on iris set](3-python/data_mining/hw5)
+		- [documents classification](3-python/data_mining/hw6)
 	- Computer vision
 		- [background subtractor](3-python/computer_vision/background_subtractor)
 		- [offsite finder](3-python/computer_vision/offsite_finder)
