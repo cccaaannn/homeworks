@@ -64,7 +64,10 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [detect money computer vision](3-python/capstone/detect_money)
 	- Data mining
 		- [feature selection 1](3-python/data_mining/hw1)
+		- [testing mean](3-python/data_mining/hw2)
 		- [feature selection 2](3-python/data_mining/hw3)
+		- [simple house prices prediction](3-python/data_mining/hw4)
+		- [k-means on iris set](3-python/data_mining/hw5)
 	- Computer vision
 		- [background subtractor](3-python/computer_vision/background_subtractor)
 		- [offsite finder](3-python/computer_vision/offsite_finder)
