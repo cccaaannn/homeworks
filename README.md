@@ -1,6 +1,6 @@
 # homeworks
 ---
-![](https://img.shields.io/github/repo-size/cccaaannn/homeworks?style=flat-square) [![GitHub license](https://img.shields.io/github/license/cccaaannn/homeworks?style=flat-square)](https://github.com/cccaaannn/homeworks/blob/master/LICENSE) 
+![](https://img.shields.io/github/languages/count/cccaaannn/homeworks?style=flat-square) ![](https://img.shields.io/github/repo-size/cccaaannn/homeworks?style=flat-square) [![GitHub license](https://img.shields.io/github/license/cccaaannn/homeworks?style=flat-square)](https://github.com/cccaaannn/homeworks/blob/master/LICENSE) 
 
 This repo is a backup of all the homeworks that I made or helped over the years.
 
@@ -80,6 +80,7 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [euclidean-extended euclidean](3-python/network_security_cryptography/hw2)
 	- Other
 		- [simple pizza order system](3-python/other/simple_pizza_order)
+		- [GCD](3-python/other/gcd)
 - ## Arduino
 	- [alarm clock](4-arduino/alarm_clock)
 	- [seven segment display homework](4-arduino/seven_segment_display)
