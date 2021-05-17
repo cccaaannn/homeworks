@@ -81,6 +81,7 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 	- Other
 		- [simple pizza order system](3-python/other/simple_pizza_order)
 		- [GCD](3-python/other/gcd)
+		- [crop yield estimation](3-python/other/crop_yield_estimation)
 - ## Arduino
 	- [alarm clock](4-arduino/alarm_clock)
 	- [seven segment display homework](4-arduino/seven_segment_display)
