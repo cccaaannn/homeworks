@@ -56,6 +56,8 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 		- [homework 4](3-python/introduction_to_python/hw4)
 		- [midterm](3-python/introduction_to_python/midterm)
 		- [final](3-python/introduction_to_python/final)
+	- Introduction to python (another one)
+		- [midterm](3-python/introduction_to_python2/midterm)
 	- Analysis of algorithms
 		- [string matching homework python version](3-python/analysis_of_algorithms/string_matching)
 	- Capstones
