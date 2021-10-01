@@ -46,6 +46,8 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 	- Operating systems
 		- [barrier-semaphore homework](2-java/operating_systems/barrier_semaphore)
 	- Other
+		- [ShoppingList Problem](2-java/other/ProgrammingChallenge/ShoppingListProblem)
+		- [Bulk Message Delivery Application](2-java/other/ProgrammingChallenge/BulkMessageDeliveryApplication)
 		- [question answer system homework](2-java/other/question_answer_hw)
 		- [separate images by date](2-java/other/separate_images_by_date)
 - ## Python
