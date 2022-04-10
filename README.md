@@ -92,3 +92,4 @@ Some of them are poorly commented and in a terrible shape 🤷🏻‍♂️, but
 	- [seven segment display homework](4-arduino/seven_segment_display)
 - ## C
 	- [dynamic array](5-c/dynamic_array)
+	- [copy file](5-c/copy_file)
